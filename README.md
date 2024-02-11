@@ -42,17 +42,17 @@ To install and run this project locally, follow these steps:
 
 ## Deployed Application to Heroku Link
 
-[Express.js Note Taker](https://dry-coast-63605-66572fc1d17d.herokuapp.com/)
+[Express.js Note Taker - Heroku](https://dry-coast-63605-66572fc1d17d.herokuapp.com/)
 
 ## Usage
 
 1. Upon opening the application, you will be presented with a landing page with a link to the notes page.
   
-    ![Screenshot of the application's landing page](./images/2.png)
+    ![Screenshot of the application's landing page](./images/1.png)
 
 2. Click on the "Get Started" button or the "Note Taker" link to access the notes page.
 
-    ![Screenshot of the application's landing page](./images/2.png)
+    ![GIF of the application's landing page](./images/2.gif)
 
 3. On the notes page, you will see existing notes listed on the left-hand side and fields to enter a new note on the right-hand side.
 
@@ -60,23 +60,23 @@ To install and run this project locally, follow these steps:
 
 4. To create a new note, enter a title and content for the note in the provided fields.
 
-    ![Screenshot of how to enter content of new note](./images/3.png)
+    ![GIF of how to enter content of new note](./images/4.gif)
 
 5. Click the "Save Note" button to save the note. The saved note will appear in the list of existing notes.
 
-    ![Screenshot of saving new note](./images/3.png)
+    ![GIF of saving new note](./images/5.gif)
 
 6. Click the "Clear Form" button to clear the content of the note.
 
-    ![Screenshot of clearing the form](./images/3.png)
+    ![GIF of clearing the form](./images/6.gif)
 
-6. To view or edit an existing note, click on the note title in the list. The note content will be displayed in the right-hand side fields.
+7. To view or edit an existing note, click on the note title in the list. The note content will be displayed in the right-hand side fields.
 
-    ![Screenshot of viewing or editing an exisiting note](./images/3.png)
+    ![GIF of viewing or editing an exisiting note](./images/7.gif)
 
-7. To delete a note, click on the trash icon next to the note in the list.
+8. To delete a note, click on the trash icon next to the note in the list.
 
-    ![Screenshot of deleting existing note](./images/3.png)
+    ![GIF of deleting existing note](./images/8.gif)
 
 ## License
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for details.
