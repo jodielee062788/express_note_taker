@@ -42,7 +42,7 @@ To install and run this project locally, follow these steps:
 
 ## Deployed Application to Heroku Link
 
-[Express.js Note Taker]()
+[Express.js Note Taker](https://dry-coast-63605-66572fc1d17d.herokuapp.com/)
 
 ## Usage
 
