@@ -16,13 +16,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // Use API routes
-app.use('/api', apiRoutes);
+app.use('/', apiRoutes);
 
 // Use HTML routes
 app.use('/', htmlRoutes);
 
 // Start the server and listen for incoming requests on the specified port
 app.listen(PORT, () => {
-    console.log('Server running on http://localhost:${PORT}');
+    console.log(`Server running on http://localhost:${PORT}`);
 });
 

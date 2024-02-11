@@ -3,7 +3,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
 
 // GET /api/notes
-router.get('/api/notes', (req, res) => {
+router.get('/api/notes', async (req, res) => {
     try {
         const notes = JSON.parse(fs.readFileSync('./db/db.json', 'utf-8'));
         res.json(notes); // Send the notes as a JSON response
